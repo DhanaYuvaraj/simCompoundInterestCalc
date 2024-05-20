@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="btn">
+        <button id="simp">Simple Interest </button>
+        <!-- <div class="compound"> -->
+        <button id="comp"><a href="./compoundInt.html">Compound Interest</a></button>
+    </div>
+        <!-- </div> -->
+     <div>
+      <label for="principalAmount">Principal Amount</label>
+       <input type="text" name="textbox1" id="principalAmount">
+      </div>
+    <div>
+        <label for="interest">Interest Rate</label>
+        <input type="text" name="textbox2" id="interest">
+    </div>
+    <div>
+    <label for="years">Number Of Years</label>
+    <input type="text" name="textbox3" id="years">
+</div>
+    <button onclick="convert()" id="sub">Calculate</button>
+    <div id="result">Result</div>
+</div>
+</body>
+</html>

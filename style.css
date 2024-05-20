@@ -1,0 +1,69 @@
+body{
+    background-color: rosybrown;
+}
+
+.container{
+    width:700px;
+    height:900px;
+    margin:100px 420px;
+    background-color:wheat;
+    padding:20px;
+    border-radius: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#simp
+{
+    display:inline-block;
+    margin:50px 30px 20px 40px;
+    padding:12px;
+    font-size: xx-large;
+    border-radius: 25px;
+    background-color: bisque;
+    border: 3px solid rosybrown;
+    
+}
+
+#comp{
+    margin:50px 40px 20px 40px;
+    padding:12px;
+    font-size: xx-large;
+    border-radius: 25px;
+    background-color:bisque;
+    border:3px solid rosybrown;
+    color:black;
+}
+
+label{
+    padding:20px;
+    display:block;
+    font-size: x-large;
+    margin:25px 0px 5px 20px;
+}
+input{
+    padding: 10px;
+    width:70%;
+    margin:5px 40px;
+    border-radius: 12px;
+    font-size: x-large;
+    border: 3px solid rosybrown;
+}
+
+#result{
+    /* width:100px; */
+    margin: 5px 40px;
+    font-size:x-large;
+    /* background-color: springgreen; */
+}
+
+
+#sub{
+    width:150px;
+    margin:30px 0px 50px 220px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    background-color: bisque;
+    border:3px solid rosybrown;
+}

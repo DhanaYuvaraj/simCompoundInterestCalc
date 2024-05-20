@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="compoundInt.css">
+    <script src="compoundInt.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button id="cmp">Compound Interest</button>
+        <button id="simple"><a href="./index.html">Simple Interest</a></button>
+        <div>
+            <label>PrincipalAmount</label>
+            <input type="text" id="principalAmount">
+        </div>
+        <div>
+            <label>Rate Of Interest</label>
+            <input type="text" id="rateOfInterest">
+        </div>
+        <div>
+            <label>Number Of Years</label>
+            <input type="text" id="time">
+        </div>
+        <div>
+            <button onclick="compoundCalculator()" id="sub">Calculate</button>
+        </div>
+        <div>
+            <p id="result">Result:</p>
+        </div>
+    </div>
+</body>
+</html>
